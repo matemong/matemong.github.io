@@ -30,10 +30,10 @@
             transform: rotateY(180deg);
 
             &-1 {
-                background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark);
+                background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
             }
             &-2 {
-                background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
+                background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark);
             }
             &-3 {
                 background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark);
@@ -61,15 +61,15 @@
         border-top-right-radius: 3px;
 
         &--1 {
-            background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark), url();
+            background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark), url(../img/pic1.jpg);
         }
 
         &--2 {
-            background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark), url();
+            background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark), url(../img/pic2.jpg);
         }
 
         &--3 {
-            background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark), url();
+            background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark), url(../img/pic3.jpg);
         }
     }
     &__heading{
@@ -95,14 +95,14 @@
         &--1{
             background-image: linear-gradient(
                 to right bottom, 
-                rgba($color-secondary-light, .85), 
-                rgba($color-secondary-dark, .85))
+                rgba($color-primary-light, .85), 
+                rgba($color-primary-dark, .85))
         }
         &--2{
             background-image: linear-gradient(
                 to right bottom, 
-                rgba($color-primary-light, .85), 
-                rgba($color-primary-dark, .85))
+                rgba($color-secondary-light, .85), 
+                rgba($color-secondary-dark, .85))
         }
         &--3{
             background-image: linear-gradient(
@@ -169,7 +169,7 @@
             position: relative;                    
             &--back {
                 transform: rotateY(0);
-                clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 100%);
+                clip-path: polygon(0 0, 100% 5%, 100% 100%, 0 100%);
             }
         }
         

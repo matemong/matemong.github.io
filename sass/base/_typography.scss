@@ -39,7 +39,7 @@ body{
         animation-duration: 5s;
         @include respond(phone) {
             letter-spacing: .5rem;
-            
+            font-size: 1.6rem;
         }
     }
 
